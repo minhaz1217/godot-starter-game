@@ -21,7 +21,7 @@ offset_bottom = 78.0
 grow_horizontal = 0
 theme_override_fonts/font = ExtResource("1_jn7ha")
 theme_override_font_sizes/font_size = 64
-text = "50"
+text = "0"
 
 [node name="Message" type="Label" parent="."]
 anchors_preset = 8
@@ -37,7 +37,8 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("1_jn7ha")
 theme_override_font_sizes/font_size = 64
-text = "Dodge the Creeps"
+text = "Dodge the Goblins
+"
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 2

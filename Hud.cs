@@ -32,7 +32,7 @@ public partial class Hud : Node
 		await ToSignal(messageTimer, Timer.SignalName.Timeout);
 
 		var message = GetNode<Label>("Message");
-		message.Text = "Dodge the Creeps!";
+		message.Text = "Dodge the Goblins";
 		message.Show();
 
 		await ToSignal(GetTree().CreateTimer(1.0), SceneTreeTimer.SignalName.Timeout);

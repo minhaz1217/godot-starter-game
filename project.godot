@@ -10,9 +10,10 @@ config_version=5
 
 [application]
 
-config/name="TestProject"
+config/name="Dodge The Goblins"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3", "C#", "Mobile")
+boot_splash/show_image=false
 config/icon="res://icon.svg"
 
 [display]
@@ -24,6 +25,12 @@ window/stretch/mode="canvas_items"
 [dotnet]
 
 project/assembly_name="TestProject"
+
+[file_customization]
+
+folder_colors={
+"res://art/": "red"
+}
 
 [input]
 
